@@ -19,4 +19,4 @@ Sitio web enSeñando, sitio web para el proyecto final del curso de Maquetación
 ![Screen Shot 2023-08-18 at 23 01 24](https://github.com/mriatorres/mriatorres/assets/108082130/6f777808-cb8e-4240-88d4-33e4caa8bc6c)
 
 #### 🔗Link sitio web:
-https://mriatorres.github.io/Landing-page-JS/index.html
+https://mriatorres.github.io/sitio-web-enSenando/
