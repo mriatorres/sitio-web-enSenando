@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Formulario inscripción - enSeñando</title>
+</head>
+<body>
+    <div class="titulo text-center mt-4 fw-bold text-dark">
+    <h1>Formulario inscripción -<span class="text-danger"> enSeñando</span></h1>
+   </div>
+
+   <div class="formulario w-75 mx-auto p-2">
+    <form>
+        <!-- 2 column grid layout with text inputs for the first and last names -->
+        <div class="row mb-4">
+          <div class="col">
+            <div class="form-outline">
+              <input type="text" id="form6Example1" class="form-control" />
+              <label class="form-label" for="form6Example1">Nombres</label>
+            </div>
+          </div>
+          <div class="col">
+            <div class="form-outline">
+              <input type="text" id="form6Example2" class="form-control" />
+              <label class="form-label" for="form6Example2">Apellidos</label>
+            </div>
+          </div>
+        </div>
+      
+      
+        <!-- Text input -->
+        <div class="form-outline mb-4">
+          <input type="text" id="form6Example4" class="form-control" />
+          <label class="form-label" for="form6Example4">Dirección</label>
+        </div>
+      
+        <!-- Email input -->
+        <div class="form-outline mb-4">
+          <input type="email" id="form6Example5" class="form-control" />
+          <label class="form-label" for="form6Example5">Email</label>
+        </div>
+      
+        <!-- Number input -->
+        <div class="form-outline mb-4">
+          <input type="number" id="form6Example6" class="form-control" />
+          <label class="form-label" for="form6Example6">Celular</label>
+        </div>
+
+        <!-- Estudio -->
+        <div class="form-check">
+            <p>¿Has tomado algún curso de lengua de señas colombiana antes?</p>
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              Sí
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+              No
+            </label>
+          </div>
+          <br>
+          <label class="form-select-label">Selecciona el curso que deseas tomar</label>
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Selecciona una opción</option>
+            <option value="1">A1 LSC principiante</option>
+            <option value="2">A2 LSC basico</option>
+            <option value="3">B1 LSC intermedio</option>
+            <option value="4">B2 LSC intermedio / avanzado</option>
+            <option value="5">C1 LSC avanzado</option>
+        </select>
+
+          <br>
+      
+        <!-- Checkbox -->
+        <div class="form-check d-flex justify-content-center mb-4">
+          <input class="form-check-input me-2" type="checkbox" value="" id="form6Example8" checked />
+          <label class="form-check-label" for="form6Example8"> ¿Crear una cuenta? </label>
+        </div>
+      
+        <!-- Submit button -->
+        <button type="submit" class="btn btn-danger btn-block mb-4">Inscribirse</button>
+      </form>
+   </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    </body>
+</html>

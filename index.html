@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- ### BOX ICONS ### -->
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+        <!-- ### CSS ### -->
+        <link rel="stylesheet" href="./css/style.css">
+    <title>enSeñando - Un mundo más inclusivo</title>
+</head>
+<body>
+
+    <!--========= ALERT DESCUENTO =======-->
+    <script>
+       window.addEventListener('load', 
+  function() { 
+    swal({
+        title: "¡Aprovecha nuestros descuentos!",
+        text: "Inscribite a uno de nuestros cursos y recibe un 15% de descuento",   
+        button: false
+    }
+    );
+    }, false);
+    </script>
+
+   <!--========== SCROLL TOP ==========-->
+   <a href="#" class="scrolltop" id="scroll-top">
+    <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
+</a>
+
+<!--========== HEADER ==========-->
+<header class="l-header" id="header">
+    <nav class="nav bd-container">       
+         <a href="#" class="nav__logo">enSeñando - LSC</a>
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#inicio" class="nav__link active-link">Inicio</a></li>
+                <li class="nav__item"><a href="#nosotros" class="nav__link">Nosotros</a></li>
+                <li class="nav__item"><a href="#aprendizaje" class="nav__link">Aprendizaje</a></li>
+                <li class="nav__item"><a href="#cursos" class="nav__link">Cursos</a></li>
+
+                <li><i class='bx bx-toggle-left change-theme' id="theme-button"></i></li>
+            </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+            <i class='bx bx-grid-alt'></i>
+        </div>
+    </nav>
+</header>
+
+<main class="l-main">
+    <!--========== HOME ==========-->
+    <section class="home" id="inicio">
+        <div class="home__container bd-container bd-grid">
+            <div class="home__img" id="home_img">
+                <!-- Imagen tomada de: https://icons8.com/illustrations/author/zD2oqC8lLBBA-->
+                <img src="./img/3d-hands-fun-and-wild-raising-open-brown-skin-hands.png" alt="">
+            </div>
+
+            <div class="home__data">
+                <h1 class="home__title">Anímate a aprender LSC</h1>
+                <p class="home__description">Aprende lengua de señas colombiana (LSC) por medio de nuestros cursos online.</p>
+                <a href="/inscribete.html" class="button">Inscribete</a>
+            </div>   
+        </div>
+    </section>
+
+    <!--========== SHARE ==========-->
+    <section class="share section bd-container" id="nosotros">
+        <div class="share__container bd-grid">
+            <div class="share__data">
+                <h2 class="section-title-center">Quiénes <br> Somos</h2>
+                <p class="share__description">Somos una academia de Lengua de señas colombiana con 12 años de experiencia en el mercado, acreditada por las secretarias de educación y certificada en calidad por Icontec, permitiéndonos garantizar tu aprendizaje con las mejores técnicas de optimización cognitiva y de consolidación de las habilidades de aprendizaje a nivel idiomático.</p>
+                <a href="/nosotros.html" class="button">Más sobre nosotros</a>
+            </div>
+
+            <div class="share__img">
+                <!-- Imagen tomada de: https://icons8.com/illustrations/author/zD2oqC8lLBBA-->
+                <img src="./img/3d-hands-fun-and-wild-rockers-tanned-skin-hand-with-a-tattoo-showing-rock-sign.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!--========== APRENDIZAJE ==========-->
+    <section class="decoration section bd-container" id="aprendizaje">
+        <h2 class="section-title">Nuestra <br> Metodología</h2>
+        <div class="decoration__container bd-grid">
+            <div class="decoration__data">
+                <h3 class="decoration__title">Modalidad 100% virtual</h3>
+                <p>El contenido está disponible las 24 horas del día para que puedas estudiar en tu propio horario.</p>
+                <!-- Imagen tomada de: https://icons8.com/illustrations/author/zD2oqC8lLBBA-->
+                <img src="./img/3d-fluency-laptop.png" alt="" class="decoration__img">
+            </div>
+
+            <div class="decoration__data">
+                <h3 class="decoration__title">Tutorías personalizadas</h3>
+                <p>Reciba calificaciones y observaciones de todas sus actividades resueltas por parte de tutores asignados.</p>
+                <!-- Imagen tomada de: https://icons8.com/illustrations/author/zD2oqC8lLBBA-->
+                <img src="./img/3d-fluency-training.png" alt="" class="decoration__img">
+            </div>
+
+            <div class="decoration__data">
+                <h3 class="decoration__title">Material de estudio</h3>
+                <p>Aprende a través de videos explicativos y lecturas concretas. </p>
+                <!-- Imagen tomada de: https://icons8.com/illustrations/author/zD2oqC8lLBBA-->
+                <img src="./img/3d-fluency-copy-to-folder.png" alt="" class="decoration__img">
+
+            </div>
+        </div>
+    </section>
+
+    <!--========== CURSOS ==========-->
+    <section class="accessory section bd-container" id="cursos">
+        <h2 class="section-title">Conoce Nuestros <br> Cursos</h2>
+
+        <div class="accessory__container bd-grid">
+            <div class="accessory__content">
+                <img src="assets/img/accessory1.png" alt="" class="accessory__img">
+                <h3 class="accessory__title">Curso principiante A1</h3>
+                <span class="accessory__category">Curso</span>
+                <span class="accessory__preci">$145,000</span>
+                <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a>
+            </div>
+
+            <div class="accessory__content">
+                <img src="assets/img/accessory2.png" alt="" class="accessory__img">
+                <h3 class="accessory__title">Curso básico A2</h3>
+                <span class="accessory__category">Curso</span>
+                <span class="accessory__preci">$145,000</span>
+                <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a>
+            </div>
+
+            <div class="accessory__content">
+                <img src="assets/img/accessory3.png" alt="" class="accessory__img">
+                <h3 class="accessory__title">Curso intermedio B1</h3>
+                <span class="accessory__category">Curso</span>
+                <span class="accessory__preci">$145,000</span>
+                <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a>
+            </div>
+
+            <div class="accessory__content">
+                <img src="assets/img/accessory4.png" alt="" class="accessory__img">
+                <h3 class="accessory__title">Curso intermedio - avanzado B2</h3>
+                <span class="accessory__category">Curso</span>
+                <span class="accessory__preci">$170,000</span>
+                <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a>
+            </div>
+
+            <div class="accessory__content">
+                <img src="assets/img/accessory5.png" alt="" class="accessory__img">
+                <h3 class="accessory__title">Curso Avanzado C1</h3>
+                <span class="accessory__category">Curso</span>
+                <span class="accessory__preci">$185,000</span>
+                <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!--========== SUSCRIBETE ==========-->
+    <section class="send section">
+        <div class="send__container bd-container bd-grid">
+            <div class="send__content">
+                <h2 class="section-title-center send__title">Suscríbete</h2>
+                <p class="send__description">Suscríbete a nuestra News Letter para estar al día con los ultimas noticias, cursos y tips de LSC.</p>
+                <form action="">
+                    <div class="send__direction">
+                        <input type="text" placeholder="Email" class="send__input">
+                        <a href="#" class="button">Enviar</a>
+
+                    </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="send__img">
+                <img src="assets/img/send.png" alt="">
+            </div>
+        </div>
+    </section>
+</main>
+
+<!--========== FOOTER ==========-->
+<footer class="footer section">
+    <div class="footer__container bd-container bd-grid">
+        <div class="footer__content">
+            <h3 class="footer__title">
+                <a href="#" class="footer__logo">enSeñando</a>
+            </h3>
+            <p class="footer__description">"El lenguaje de señas es, en manos de quien lo domina, sumamente bello y expresivo." <br> - J. Schuyley Long</p>
+        </div>
+
+        <div class="footer__content">
+            <h3 class="footer__title">Nuestros servicios</h3>
+            <ul>
+                <li><a href="#" class="footer__link">Precio </a></li>
+                <li><a href="#" class="footer__link">Descuentos</a></li>
+                <li><a href="#" class="footer__link">Certificación</a></li>
+            </ul>
+        </div>
+
+        <div class="footer__content">
+            <h3 class="footer__title">Nuestra compañía</h3>
+            <ul>
+                <li><a href="#" class="footer__link">Blog</a></li>
+                <li><a href="#" class="footer__link">Más acerca de nosotros</a></li>
+                <li><a href="#" class="footer__link">Nuestra Misión</a></li>
+            </ul>
+        </div>
+
+        <div class="footer__content">
+            <h3 class="footer__title">Redes Sociales</h3>
+            <a href="#" class="footer__social"><i class='bx bxl-facebook-circle '></i></a>
+            <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
+            <a href="#" class="footer__social"><i class='bx bxl-instagram-alt'></i></a>
+        </div>
+    </div>
+</footer>
+<!-- TYPEWRITER TEXT ANIMATION -->
+<script>
+    typewriterConfig = ["enseñando.SAS 2023", true]
+      typewriter();
+    </script>
+
+<!--========== SCROLL REVEAL - Librería JavaScript ==========-->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<!--======== Typewriter - Libreria JavaScript ==========-->
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/gsap.min.js"></script>
+        <!-- ### JS ### -->
+<script src="./js/main.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+
+</body>
+</html>
